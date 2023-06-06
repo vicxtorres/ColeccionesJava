@@ -1,11 +1,15 @@
-package modelo;
+package List;
+
+import List.MiArrayList;
+import List.MiLinkedList;
+import List.MiVector;
 
 public class ListMenu
 {
     public void menu()
     {
         ///ARRAYLIST FUNCIONAMIENTO
-        MiArrayList <String> miArray = new MiArrayList<String>();
+        MiArrayList<String> miArray = new MiArrayList<String>();
         miArray.agregar("alejandro");
         miArray.agregar("ramon");
         miArray.agregar("leandro");
@@ -15,7 +19,7 @@ public class ListMenu
         System.out.println(miArray.toString());
 
         ///VECTOR FUNCIONAMIENTO
-        MiVector <String> miVector = new MiVector<String>();
+        MiVector<String> miVector = new MiVector<String>();
         miVector.agregar("wanda");
         miVector.agregar("juan");
         miVector.agregar("wanda");
@@ -26,7 +30,7 @@ public class ListMenu
         System.out.println(miVector.toString());
 
         ///LINKEDLIST FUNCIONAMIENTO
-        MiLinkedList <Integer> miLkList = new MiLinkedList<>();
+        MiLinkedList<Integer> miLkList = new MiLinkedList<>();
         miLkList.agregarPrimero(800);
         miLkList.agregarUltimo(4);
         miLkList.agregarPrimero(5);

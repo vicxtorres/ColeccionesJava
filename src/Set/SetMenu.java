@@ -1,4 +1,4 @@
-package modelo;
+package Set;
 
 public class SetMenu
 {
@@ -28,7 +28,7 @@ public class SetMenu
 
 
         /**LinkedHashSet FUNCIONAMIENTO**/
-        MiLinkedHashSet <String> miLinkedHS = new MiLinkedHashSet<>();
+        MiLinkedHashSet<String> miLinkedHS = new MiLinkedHashSet<>();
         miLinkedHS.agregar("vicky");
         miLinkedHS.agregar("victoria");
         miLinkedHS.agregar("jane austen");
