@@ -12,7 +12,6 @@ public class MapMenu
         MiHashMap<Integer, String> miHashMap= new MiHashMap<Integer,String>();
 
         miHashMap.agregar(1,"carlos");
-        miHashMap.vista();
         miHashMap.agregar(1,"messi"); //se sobreescribe carlos y queda messi
         miHashMap.agregar(2,"antonela");
 
