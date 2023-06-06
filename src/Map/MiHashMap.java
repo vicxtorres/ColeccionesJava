@@ -29,10 +29,6 @@ public class MiHashMap <K,V> //E: el elemento a guardar
         return miHashMap.containsKey(key);
     }
 
-    public void vista()
-    {
-        miHashMap.entrySet();
-    }
 
     public void mostrarMapaIterado()  //no lo usaria de esta forma, sirve para ordenar pares por ej
     {
